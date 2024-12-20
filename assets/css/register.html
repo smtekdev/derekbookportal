@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="registeration-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <h2>Pay Book Portal</h2>
+            <h3>$100</h3>
+            <div class="pricing-details">
+                <p>Have a coupon?</p>
+                <p>Client – Payment</p>
+                <p>$100</p>
+                <p>$100.00</p>
+                <p><strong>Total: $100.00</strong></p>
+            </div>
+        </div>
+    
+        <!-- Right Section -->
+        <div class="right-section">
+            <form action="#" method="POST" class="register-form">
+                <label for="name">Name:</label>
+                <div class="name-fields">
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" value="Harlan" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" value="Campbell" required>
+                </div>
+    
+                <label for="address-line-1">Address Line 1*:</label>
+                <input type="text" id="address-line-1" name="address-line-1" placeholder="Address Line 1" required>
+    
+                <label for="address-line-2">Address Line 2:</label>
+                <input type="text" id="address-line-2" name="address-line-2" placeholder="Address Line 2">
+    
+                <label for="city">City*:</label>
+                <input type="text" id="city" name="city" placeholder="City" required>
+    
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">-- Select Country --</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">UK</option>
+                </select>
+    
+                <label for="state">State/Province*:</label>
+                <input type="text" id="state" name="state" placeholder="State/Province" required>
+    
+                <label for="zip">Zip/Postal Code*:</label>
+                <input type="text" id="zip" name="zip" placeholder="Zip/Postal Code" required>
+    
+                <button type="submit" class="submit-button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

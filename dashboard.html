@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/javascript/script.js"></script>
+    
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-header">My Profile</div>
+            <ul class="menu">
+                <li data-section="profile">My Profile</li>
+                <li data-section="payments">Payments</li>
+                <li data-section="subscriptions">Subscriptions</li>
+                <li data-section="content">Content</li>
+                <li data-section="logout">Logout</li>
+            </ul>
+        </aside>
+    
+        <!-- Main Content -->
+        <main class="profile-content">
+            <div id="profile-section" class="section active">
+                <div class="welcome-banner">Welcome to Book Portal</div>
+                <div class="profile-content">
+                    <h2 class="profile-title">My Profile</h2>
+                    <div class="profile-card">
+                        <div class="profile-info">
+                            <p><strong>Name:</strong> Harlan Campbell</p>
+                            <p><strong>Email:</strong> fayzan.sparklab@gmail.com</p>
+                            <p><strong>Billing Address:</strong> abc abc 1234 56767</p>
+                        </div>
+                        <div class="profile-actions">
+                            <button class="action-btn btn-payments">View Payments</button>
+                            <button class="action-btn btn-subscriptions">View Subscriptions</button>
+                            <button class="action-btn btn-password">Change Password</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="payments-section" class="section">
+
+                <div class="payments-content">
+                    <h2 class="payments-title">Payments</h2>
+                    <p class="payments-statement">You have no completed payments to display.</p>
+                </div>
+                
+            </div>
+
+
+            <div id="subscriptions-section" class="section">
+    <h2>Subscriptions</h2>
+    <ul>
+        <li>
+            <span>Subscription</span>
+            <span>Status</span>
+            <span>Dates</span>
+        </li>
+        <li>
+            <span>Read Online</span>
+            <span class="status-lapsed">lapsed</span>
+            <span>January 1, 2024<br>Expired: January 1, 2024</span>
+        </li>
+    </ul>
+</div>
+
+            
+
+<div id="content-section" class="section">
+    <h2>Content</h2>
+    <p>Details about content will appear here.</p>
+    <div class="book-image">
+        <img src="./assets/images/littlebook.jpg" width="250px" alt="Book Image">
+    </div>
+</div>
+
+            <div id="logout-section" class="section">
+                <h2>Logout</h2>
+                <p>You have successfully logged out.</p>
+            </div>
+        </main>
+    </div>
+    
+    
+    
+</body>
+</html>
